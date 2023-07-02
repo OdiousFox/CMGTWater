@@ -8,12 +8,12 @@ public class GroundChecker : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D col) {
         colliding = true;
-        Debug.Log(colliding);
+        //Debug.Log(colliding);
     }
 
     private void OnTriggerExit2D(Collider2D other) {
         colliding = false;
-        Debug.Log(colliding);
+        //Debug.Log(colliding);
     }
 
     public bool isGrounded() {
