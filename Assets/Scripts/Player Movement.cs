@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        Debug.Log(buttonPressed);
+        //Debug.Log(buttonPressed);
         
         
     } 
